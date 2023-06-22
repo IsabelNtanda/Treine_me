@@ -6,7 +6,7 @@
 
 > Projeto desenvolvido durante o curso Explorer da Rocketseat!
 
-[🔗Clique para acessar](https://moveis-customizados-psi.vercel.app/)
+[🔗Clique para acessar](https://treine-me-chi.vercel.app/)
 
 ## 🛠 Tecnologias utilizadas
 
