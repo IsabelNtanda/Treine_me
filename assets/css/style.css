@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --color-primary: #7d7987;
+  --color-secondary: #89c5cc;
+  --color-link: #1f1534;
+  --button-background: #69b99d;
+  --button-color: #f9f9f9;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+  min-height: 100vh;
+}
+
+h1,
+ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.page {
+  width: 100rem;
+  margin:0 auto;
+  padding: 6.5rem 6.5rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: var(--color-link);
+  opacity: 0.5;
+  transition: all 0.4s;
+}
+nav ul a:hover {
+  font-weight: bold;
+}
+nav ul a.active {
+  color: var(--color-link);
+  font-weight: bold;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  color: var(--color-link);
+  width: 49rem;
+}
+
+h1 span {
+  color: var(--color-secondary);
+}
+
+section p {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  margin-block: 4rem;
+}
+
+section button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-secondary);
+  text-transform: uppercase;
+  border: none;
+  width: fit-content;
+  padding: 1.4rem 3.2rem 1.5rem;
+  gap: 1rem;
+  line-height: 2.2rem;
+  color: var(--button-color);
+  background-color: var(--button-background);
+  border-radius: 0.4rem;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+section button:hover {
+  filter: brightness(1.1);
+}
+footer {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+  margin-top: 8 rem;
+}
+
+footer a {
+  font-weight: bold;
+  color: #000000;
+}
+
+.ball {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
